@@ -5,6 +5,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'twitter'
 gem 'oauth'
+gem 'grackle'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

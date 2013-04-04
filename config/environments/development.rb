@@ -36,4 +36,11 @@ Oscarwebsite::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  unless Rails.env.production?
+  ENV['TWITTER_CONSUMER_KEY']='hbVyuO4k2Lg5X7Y4mnS9Sw' 
+  ENV['TWITTER_CONSUMER_SECRET']='6OWwWWOsfQcJgUGvMqgKwZxZUn37ls0NluqJWjALnmQ' 
+  ENV['TWITTER_TOKEN']='162338979-J17OPj2AakO06P9RAeKm1UHc3UXg3iYCQP24oLhE'   
+  ENV['TWITTER_TOKEN_SECRET']='XevRB8JeZT54bawQMpTWbqt9lLi3VDpxMC3u4kIek9A'
+end
 end

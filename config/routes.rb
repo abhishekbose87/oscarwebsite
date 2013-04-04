@@ -1,4 +1,7 @@
 Oscarwebsite::Application.routes.draw do
+  resources :tweets
+
+
   devise_for :users
 
   root :to => 'pages#home'
