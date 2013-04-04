@@ -1,7 +1,28 @@
-<div class="center hero-unit">
-    <h1>Welcome! </h1>
-    <p>to <%= link_to "Oscar India Page", "http://oscar-india.org" %>
-     </p>
 
-    <p> <%= link_to 'Sign up now!',  new_user_registration_path , class: "btn btn-large btn-primary" %> </p>
+<div class="span3" >
+
+<%= link_to image_tag("oscar.jpg", alt: "Oscar India"), '/',class:"brand" %>
+
+<p> <br><%= link_to 'Sign up now!',  new_user_registration_path , class: "btn btn-large btn-primary" %> </p>
+</div>
+
+<div class="span5"> 
+	<p>OSCAR India is a football for development organisation that uses sport as a social tool to identify and tackle barriers that prevent children and youth from reaching their maximum potential.</p>
+<p>
+We pursue three main objectives:
+<ul>
+	<li>To support children and youth to stay in school.</li>
+	<li>To discover, develop and nurture young talent.</li>
+	<li>To educate youth as responsible and well-rounded citizens.</li>
+</ul>
+</p>	
+</div>
+
+<div class="span3">
+	<p><strong>Subscribe for monthly newsletter</p></strong>
+	<form action="#">
+  Email Id <input type="text" name="fname"><br>
+  <input type="submit" value="Submit">
+</form>
+    <h3>Embedded Tweets </h3>
 </div>

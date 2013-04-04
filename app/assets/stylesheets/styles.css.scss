@@ -2,8 +2,14 @@
 //$navbarBackground: white;
 //$btnPrimaryBackground: purple;
 @import 'bootstrap';
+
+html{
+    height: 95%;
+}
+
 body{
-    padding-top: 60px;
+    padding-top: 5%;
+    height: 95%;
 }
 
 
@@ -14,10 +20,24 @@ body{
     border: 0;
 }
 
-.footer{
-    margin-top: 50px;
+
+.container {
+height: 95%;
+min-height: 95%;
+height: auto !important;
+margin: 0 auto -14px;
+}
+
+.footer, .push{
+
+	text-align: center;
+	vertical-align: bottom;
+	height: 14px;
+	padding-top: 10px;
     color: $grayLight;
+    clear:both;
     a{
         color: $gray;
     }
+
 }
