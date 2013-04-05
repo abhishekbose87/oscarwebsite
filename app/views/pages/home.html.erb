@@ -1,5 +1,5 @@
 
-<div class="span3" >
+<div class="span2" >
 
 <%= link_to image_tag("oscar.jpg", alt: "Oscar India"), '/',class:"brand" %>
 
@@ -18,11 +18,13 @@ We pursue three main objectives:
 </p>	
 </div>
 
-<div class="span3">
+<div class="span4">
 	<p><strong>Subscribe for monthly newsletter</p></strong>
-	<form action="#">
+<form action="#">
   Email Id <input type="text" name="fname"><br>
   <input type="submit" value="Submit">
 </form>
-    <h3>Embedded Tweets </h3>
+<%= render 'facebookLike' %>
+<%= render 'twitterTimeline' %> 
+ 
 </div>
