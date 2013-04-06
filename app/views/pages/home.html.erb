@@ -1,12 +1,5 @@
 
-<div class="span2" >
-
-<%= link_to image_tag("oscar.jpg", alt: "Oscar India"), '/',class:"brand" %>
-
-<p> <br><%= link_to 'Sign up now!',  new_user_registration_path , class: "btn btn-large btn-primary" %> </p>
-</div>
-
-<div class="span5"> 
+<div class="span7"> 
 	<p>OSCAR India is a football for development organisation that uses sport as a social tool to identify and tackle barriers that prevent children and youth from reaching their maximum potential.</p>
 <p>
 We pursue three main objectives:
@@ -16,14 +9,12 @@ We pursue three main objectives:
 	<li>To educate youth as responsible and well-rounded citizens.</li>
 </ul>
 </p>	
+<p> <br><%= link_to 'Sign up now!',  new_user_registration_path , class: "btn btn-large btn-primary" %> </p>
 </div>
 
 <div class="span4">
-	<p><strong>Subscribe for monthly newsletter</p></strong>
-<form action="#">
-  Email Id <input type="text" name="fname"><br>
-  <input type="submit" value="Submit">
-</form>
+	<p> <%= link_to 'Subscribe to monthly newsletter!',  new_subscriber_path , class: "btn btn-large btn-primary" %> </p>
+
 <%= render 'facebookLike' %>
 <%= render 'twitterTimeline' %> 
  

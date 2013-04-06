@@ -1,4 +1,7 @@
 Oscarwebsite::Application.routes.draw do
+  resources :subscribers
+
+
   resources :tweets
 
 
